@@ -57,6 +57,12 @@ nav {
     cursor: pointer;
 }
 
+.navlinks-items a{
+    text-decoration: none;
+    outline: none;
+    color: #2d2d2d;
+}
+
 .navlinks-items::before {
     content: "";
     position: absolute;

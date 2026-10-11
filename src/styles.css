@@ -269,6 +269,7 @@ h1 em { color: var(--orange); font-weight: inherit; }
 .skill-group li { display: flex; align-items: center; gap: .5rem; padding: .35rem 0; color: var(--ink-soft); font-family: var(--mono); font-size: .67rem; border-bottom: 1px dotted rgba(32,32,28,.18); }
 .tech-icon { display: grid; width: 1rem; height: 1rem; flex: 0 0 1rem; place-items: center; border-radius: 2px; background: var(--paper-deep); }
 .tech-icon img { display: block; width: .68rem; height: .68rem; }
+.tech-icon .azure-icon { width: .72rem; height: .72rem; fill: var(--cocoa); }
 .tech-icon-fallback { color: var(--cocoa); font-family: var(--mono); font-size: .46rem; font-weight: 700; }
 .skill-group:nth-child(2) .tech-icon { background: #e2eade; }
 .skill-group:nth-child(3) .tech-icon { background: #e5e8e8; }

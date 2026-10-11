@@ -80,7 +80,7 @@ const skills = [
     label: 'Livraison',
     values: [
       { name: 'Docker', icon: 'docker' },
-      { name: 'Azure', icon: 'microsoftazure' },
+      { name: 'Azure', icon: 'azure' },
       { name: 'n8n', icon: 'n8n' },
       { name: 'Make', icon: 'make' },
       { name: 'REST APIs', icon: null },
@@ -341,6 +341,17 @@ function ExternalIcon() {
 function TechIcon({ icon }: { icon: string | null }) {
   if (!icon) {
     return <span className="tech-icon tech-icon-fallback" aria-hidden="true">&lt;/&gt;</span>
+  }
+
+  if (icon === 'azure') {
+    return (
+      <span className="tech-icon" aria-hidden="true">
+        <svg className="azure-icon" viewBox="0 0 24 24">
+          <path d="M0 20.5 7.56 7.4h8.48L8.48 20.5H0Z" />
+          <path d="M9.15 20.5 17.3 6.4 24 20.5H9.15Z" />
+        </svg>
+      </span>
+    )
   }
 
   return (

@@ -6,9 +6,9 @@ const projects = [
   {
     number: '01',
     type: 'Alternance · Dataream',
-    title: 'CRM & automatisations metier',
+    title: 'CRM & automatisations métier',
     description:
-      'Dans le cadre de mon alternance, je construis des applications CRM et des API pour fiabiliser les flux commerciaux. J’automatise aussi les synchronisations entre bases et outils metier avec n8n et Make.',
+      'Dans le cadre de mon alternance, je construis des applications CRM et des API pour fiabiliser les flux commerciaux. J’automatise aussi les synchronisations entre bases et outils métier avec n8n et Make.',
     tags: ['React', 'FastAPI', 'Supabase', 'n8n', 'Make'],
     tone: 'project-cocoa',
   },
@@ -17,7 +17,7 @@ const projects = [
     type: 'IA & cloud · HETIC',
     title: 'ImageDeePy',
     description:
-      'Une API d’analyse environnementale qui classe les dechets et propose une orientation adaptee. J’ai travaille la pipeline de machine learning, l’inference et le deploiement cloud.',
+      'Une API d’analyse environnementale qui classe les déchets et propose une orientation adaptée. J’ai travaillé la pipeline de machine learning, l’inférence et le déploiement cloud.',
     tags: ['Python', 'Azure Functions', 'Docker', 'Vision Transformer'],
     tone: 'project-green',
     href: 'https://github.com/WBoogey/imageDeePy',
@@ -27,17 +27,17 @@ const projects = [
     type: 'Robotique de service',
     title: 'Health Robot',
     description:
-      'Une application pour organiser les livraisons de fournitures en milieu hospitalier. J’interviens surtout sur le backend, la logique de mission et les fonctions d’IA qui aident le robot a interagir avec son environnement.',
+      'Une application pour organiser les livraisons de fournitures en milieu hospitalier. J’interviens surtout sur le backend, la logique de mission et les fonctions d’IA qui aident le robot à interagir avec son environnement.',
     tags: ['TanStack Start', 'FastAPI', 'MQTT', 'Docker Compose', 'MySQL'],
     tone: 'project-indigo',
     href: 'https://github.com/Amineo21/Health_Robot',
   },
   {
     number: '04',
-    type: 'Mes debuts · 2024',
+    type: 'Mes débuts · 2024',
     title: 'Maquette e-commerce',
     description:
-      'Une de mes premieres integrations front-end. Je la conserve ici pour montrer le chemin parcouru, du maquettage et de l’interface vers des produits full-stack complets.',
+      'Une de mes premières intégrations front-end. Je la conserve ici pour montrer le chemin parcouru, du maquettage et de l’interface vers des produits full-stack complets.',
     tags: ['HTML', 'CSS', 'JavaScript'],
     tone: 'project-sand',
     href: 'https://github.com/WBoogey/Maquette-1',
@@ -67,7 +67,7 @@ const skills = [
     ],
   },
   {
-    label: 'Donnees',
+    label: 'Données',
     values: [
       { name: 'PostgreSQL', icon: 'postgresql' },
       { name: 'Supabase', icon: 'supabase' },
@@ -91,24 +91,24 @@ const skills = [
 const experiences = [
   {
     date: '02.2025 - aujourd’hui',
-    role: 'Developpeur full-stack & IA',
+    role: 'Développeur full-stack & IA',
     company: 'Dataream',
     description:
-      'CRM, API REST et synchronisation de donnees pour des equipes et courtiers. Je relie produits React, backends FastAPI et automatisations metier.',
+      'CRM, API REST et synchronisation de données pour des équipes et courtiers. Je relie produits React, backends FastAPI et automatisations métier.',
   },
   {
     date: '05.2025 - 06.2025',
-    role: 'Developpeur backend Python, IA & cloud',
+    role: 'Développeur backend Python, IA & cloud',
     company: 'HETIC',
     description:
-      'API REST, ML et inference serverless pour suivre l’impact environnemental et classifier les dechets en temps reel.',
+      'API REST, ML et inférence serverless pour suivre l’impact environnemental et classifier les déchets en temps réel.',
   },
   {
     date: '03.2025 - 05.2025',
-    role: 'Developpeur full-stack',
+    role: 'Développeur full-stack',
     company: 'Hackathon Publicis x Institut Jean Monnet',
     description:
-      'PWA de mini-jeux educatifs, temps reel Laravel et WebSockets, dans une equipe franco-allemande.',
+      'PWA de mini-jeux éducatifs, temps réel Laravel et WebSockets, dans une équipe franco-allemande.',
   },
 ]
 
@@ -123,7 +123,7 @@ function Portfolio() {
             <span className="wordmark-mark">CY</span>
             <span className="wordmark-copy">
               <span>Christ-Yvann Ehoura</span>
-              <span className="wordmark-role">Developpeur full-stack</span>
+              <span className="wordmark-role">Développeur full-stack</span>
             </span>
           </a>
 
@@ -153,12 +153,12 @@ function Portfolio() {
 
         <section className="hero" id="top" aria-labelledby="hero-title">
           <div className="hero-copy">
-            <p className="eyebrow"><span /> Developpeur full-stack & automatisation IA</p>
+            <p className="eyebrow"><span /> Développeur full-stack & automatisation IA</p>
             <h1 id="hero-title">
-              Construire le <em>solide</em> derriere les idees ambitieuses.
+              Construire le <em>solide</em> derrière les idées ambitieuses.
             </h1>
             <p className="hero-lede">
-              Je suis Christ-Yvann Ehoura, developpeur full-stack oriente backend. Je transforme des besoins metier en produits fiables, de la base de donnees jusqu’a l’interface.
+              Je suis Christ-Yvann Ehoura, développeur full-stack orienté backend. Je transforme des besoins métier en produits fiables, de la base de données jusqu’à l’interface.
             </p>
             <div className="hero-actions">
               <a className="button button-dark" href="#projets">
@@ -180,25 +180,25 @@ function Portfolio() {
             <div className="availability-stamp">
               <span>Disponible</span>
               <strong>Oct. 2026</strong>
-              <small>3 sem. entreprise<br />1 sem. ecole</small>
+              <small>3 sem. entreprise<br />1 sem. école</small>
             </div>
           </div>
         </section>
 
-        <section className="signal-strip" aria-label="Domaines de specialite">
+        <section className="signal-strip" aria-label="Domaines de spécialité">
           <div><span>01</span> Architectures API</div>
-          <div><span>02</span> Donnees utiles</div>
+          <div><span>02</span> Données utiles</div>
           <div><span>03</span> Automatisation IA</div>
-          <div className="signal-location">Cergy, France <i aria-hidden="true" /> Abidjan, Cote d’Ivoire</div>
+          <div className="signal-location">Cergy, France <i aria-hidden="true" /> Abidjan, Côte d’Ivoire</div>
         </section>
 
         <section className="statement-section" aria-labelledby="statement-title">
           <p className="section-label">Une pratique full-stack</p>
           <div className="statement-grid">
-            <h2 id="statement-title">Penser l’experience dans son ensemble, pas seulement l’ecran.</h2>
+            <h2 id="statement-title">Penser l’expérience dans son ensemble, pas seulement l’écran.</h2>
             <div>
               <p>
-                Mon terrain de jeu se situe a la jonction du produit, de la donnee et de l’automatisation. J’aime les interfaces calmes, soutenues par des fondations techniques exigeantes.
+                Mon terrain de jeu se situe à la jonction du produit, de la donnée et de l’automatisation. J’aime les interfaces calmes, soutenues par des fondations techniques exigeantes.
               </p>
               <a className="inline-link" href="#parcours">Lire mon parcours <ArrowIcon /></a>
             </div>
@@ -208,10 +208,10 @@ function Portfolio() {
         <section className="work-section" id="projets" aria-labelledby="work-title">
           <div className="section-heading">
             <div>
-              <p className="section-label">Travaux selectionnes</p>
-              <h2 id="work-title">Des outils qui font avancer les equipes.</h2>
+              <p className="section-label">Travaux sélectionnés</p>
+              <h2 id="work-title">Des outils qui font avancer les équipes.</h2>
             </div>
-            <p>Trois contextes, un meme objectif : rendre la technologie concrete, claire et actionnable.</p>
+            <p>Trois contextes, un même objectif : rendre la technologie concrète, claire et actionnable.</p>
           </div>
 
           <div className="project-list">
@@ -230,7 +230,7 @@ function Portfolio() {
                     Voir le projet <ExternalIcon />
                   </a>
                 ) : (
-                  <p className="project-confidential">Projet realise en alternance</p>
+                  <p className="project-confidential">Projet réalisé en alternance</p>
                 )}
                 <ul className="tech-list" aria-label={`Technologies de ${project.title}`}>
                   {project.tags.map((tag) => <li key={tag}>{tag}</li>)}
@@ -253,7 +253,7 @@ function Portfolio() {
           <div className="experience-intro">
             <p className="section-label">Parcours</p>
             <h2 id="experience-title">Apprendre vite.<br />Livrer proprement.</h2>
-            <p>Actuellement en Bachelor Concepteur de Solutions Numeriques a HETIC, puis Mastère CTO & Tech Lead a partir de novembre 2026.</p>
+            <p>Actuellement en Bachelor Concepteur de Solutions Numériques à HETIC, puis Mastère CTO & Tech Lead à partir de novembre 2026.</p>
           </div>
           <ol className="timeline">
             {experiences.map((experience) => (
@@ -273,7 +273,7 @@ function Portfolio() {
           <div className="section-heading stack-heading">
             <div>
               <p className="section-label">Stack & savoir-faire</p>
-              <h2 id="stack-title">Du schema a la livraison.</h2>
+              <h2 id="stack-title">Du schéma à la livraison.</h2>
             </div>
             <p>Une stack choisie pour faire circuler l’information sans fragiliser le produit.</p>
           </div>
@@ -297,11 +297,11 @@ function Portfolio() {
 
         <section className="contact-section" id="contact" aria-labelledby="contact-title">
           <div className="contact-grid-pattern" aria-hidden="true" />
-          <p className="section-label">Une idee, un besoin, une alternance ?</p>
+          <p className="section-label">Une idée, un besoin, une alternance ?</p>
           <h2 id="contact-title">Faisons de la place aux projets qui comptent.</h2>
           <div className="contact-actions">
             <a className="button button-light" href="mailto:ehourayvannakora@gmail.com">
-              Ecrire un message <ArrowIcon />
+              Écrire un message <ArrowIcon />
             </a>
             <a className="contact-social" href="https://www.linkedin.com/in/yvann-ehoura/" target="_blank" rel="noreferrer">
               LinkedIn <ExternalIcon />

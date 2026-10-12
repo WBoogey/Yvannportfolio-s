@@ -10,9 +10,9 @@ export const Route = createRootRoute({
       {
         name: 'description',
         content:
-          'Portfolio de Christ-Yvann Ehoura, developpeur full-stack specialise en APIs, donnees et automatisation IA.',
+          'Portfolio de Christ-Yvann Ehoura, développeur full-stack spécialisé en APIs, données et automatisation IA.',
       },
-      { title: 'Christ-Yvann Ehoura | Developpeur full-stack' },
+      { title: 'Christ-Yvann Ehoura | Développeur full-stack' },
     ],
     links: [{ rel: 'stylesheet', href: appCss }],
   }),

@@ -1,6 +1,6 @@
 # Portfolio de Christ-Yvann Ehoura
 
-Portfolio de developpeur full-stack construit avec TanStack Start.
+Portfolio de développeur full-stack construit avec TanStack Start.
 
 ## Demarrer
 
